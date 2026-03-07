@@ -1,6 +1,6 @@
 ﻿[Project]
 <<<<<<< HEAD
-LoadCount=115
+LoadCount=116
 =======
 LoadCount=111
 >>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
@@ -9,7 +9,7 @@ TSAppVersion=100
 
 [TSMaster]
 <<<<<<< HEAD
-TSMasterVersion=2025.12.18.1770
+TSMasterVersion=2025.8.28.1610
 =======
 TSMasterVersion=2025.8.28.1610
 >>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
