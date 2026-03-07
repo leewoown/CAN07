@@ -37,33 +37,37 @@ BU_:
 
 
 BO_ 1792 HMI: 8 Vector__XXX
- SG_ HM1I_Cell_MinV : 48|16@1+ (0.001,0.0) [0.0|4.5] "V" Vector__XXX
- SG_ HMI1_Cell_AGVT : 32|16@1+ (0.1,0.0) [-30.0|100.0] "deg" Vector__XXX
- SG_ HMI_Reset : 8|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ HMI1_PWRHoldRly : 7|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ HMI1_P_Rly : 6|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ HMI1_Pre_Rly : 5|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ HMI1_N_Rly : 4|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ HMI1_CellBalaEn : 3|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ HMI1_Cell_Temps_Request : 2|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ HMI1_Cell_Volt_Request : 1|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ HMI1_COM_EN : 0|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Admin_Cell_MinV : 48|16@1+ (0.001,0.0) [0.0|4.5] "V" Vector__XXX
+ SG_ Admin_SocInitVaule : 16|16@1+ (0.1,0.0) [0.0|100.0] "%" Vector__XXX
+ SG_ Admin_NVRSocInit : 12|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Admin_NVRDataWR : 11|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Admin_NVRDataRD : 10|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Admin_NVRReset : 9|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Admin_Reset : 8|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Admin_PWRHoldRly : 7|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Admin_P_Rly : 6|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Admin_Pre_Rly : 5|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Admin_N_Rly : 4|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Admin_CellBalaEn : 3|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Not_Used_2 : 2|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Not_Used_1 : 1|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Admin_Mode : 0|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
 
 BO_ 1794 CHA: 8 Vector__XXX
  SG_ CHA_CANRx_ERR : 55|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ CHA_Protect_DCOC : 54|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ CHA_Protect_DCUV : 53|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ CHA_Protect_DCOV : 52|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ Use_Not : 51|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Not_Used_3 : 51|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ CHA_Protect_ACUV : 50|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ CHA_Protect_ACOV : 49|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ CHA_DO_STAUTE : 48|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ CHA_Current : 32|16@1- (0.1,0.0) [0.0|100.0] "A" Vector__XXX
+ SG_ CHA_Current : 32|16@1+ (0.1,0.0) [0.0|100.0] "A" Vector__XXX
  SG_ CHA_Voltage : 16|16@1+ (0.1,0.0) [40.0|100.0] "V" Vector__XXX
  SG_ CHA_SW_Ver : 0|16@1+ (0.1,0.0) [1.0|99.0] "VER" Vector__XXX
 
 BO_ 1536 VCU_RE: 8 Vector__XXX
- SG_ VCU_BSAHldShutdown : 9|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ VCU_BSAPWRRly : 9|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ VCU_BSAReset : 8|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
 
 BO_ 812 CT_Sensor: 8 Sender
@@ -84,13 +88,13 @@ BO_ 1553 BPA_Calc: 8 Vector__XXX
  SG_ BPA_Volt_Total : 0|16@1+ (0.1,0.0) [0.0|900.0] "V" Vector__XXX
 
 BO_ 1554 BPA_State: 8 Vector__XXX
- SG_ Sys_HMIBalanceMode : 63|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ Sys_HMICOMMode : 62|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ Sys_IMDRegErr : 61|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Sys_AdminNvrInit : 63|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Sys_AdminBalan : 62|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Sys_AdminMode : 61|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ Sys_ISOSPICOMERR : 60|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ Sys_CANCOMERR : 59|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ Sys_RlyERR : 58|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ Sys_MSDERR : 57|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Sys_CANComErr : 59|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Sys_RlyErr : 58|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Sys_MSDErr : 57|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ Sys_CellTempsOk : 56|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ Sys_CellVoltOk : 55|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ Sys_PwrHoldRlyDOStatus : 54|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
@@ -104,20 +108,22 @@ BO_ 1554 BPA_State: 8 Vector__XXX
  SG_ Sys_BalanceEn : 46|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ Sys_BalaMode : 45|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ Sys_SocMode : 44|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ ChargerWakeUp : 43|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ VCURlyWakeUp : 42|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ CANCOMEnable : 41|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Sys_ChargerWakeUp : 43|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Sys_VCUWakeUp : 42|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ Sys_CANCom : 41|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ Sys_INITOK : 40|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ Sys_SocSeqState : 38|2@1+ (1.0,0.0) [0.0|3.0] "s" Vector__XXX
  SG_ SyS_RlySeqState : 35|3@1+ (1.0,0.0) [0.0|7.0] "S" Vector__XXX
  SG_ Sys_SysSeqState : 32|3@1+ (1.0,0.0) [0.0|7.0] "S" Vector__XXX
+ SG_ BPA_PWRBMS_Hold : 23|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ BPA_KillSWstatus : 22|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ BPA_ChargerEn : 21|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ BPA_MSD_AUX : 20|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
+ SG_ BPA_WakeUpEn : 20|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ BPA_PreChar_Rly : 19|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ BPA_Pos_Rly : 18|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ BPA_Neg_Rly : 17|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ BPA_Balance : 16|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
- SG_ BPA_Protect_Status : 8|8@1+ (1.0,0.0) [0.0|5.0] "P" Vector__XXX
+ SG_ BPA_Protect_Status : 8|8@1+ (1.0,0.0) [0.0|5.0] "p" Vector__XXX
  SG_ BPA_Divice_Status : 0|8@1+ (1.0,0.0) [0.0|5.0] "S" Vector__XXX
 
 BO_ 1555 BPA_ProtectState: 8 Vector__XXX
@@ -199,9 +205,8 @@ BO_ 1559 BPA_VT_Position: 8 Vector__XXX
  SG_ BPA_Max_Volt_Pos : 0|16@1+ (1.0,0.0) [0.0|200.0] "Pos" Vector__XXX
 
 BO_ 1560 BPA_Calc2: 8 Vector__XXX
- SG_ BPA_BatSocOldCapacity : 48|16@1+ (0.1,0.0) [0.0|500.0] "Ah" Vector__XXX
- SG_ BPA_CellRegsMax : 32|16@1+ (0.1,0.0) [0.0|100.0] "mOhm" Vector__XXX
- SG_ BPA_BatISORegs : 16|16@1+ (0.1,0.0) [0.0|1000.0] "Mohm" Vector__XXX
+ SG_ BPA_NVR_SOC : 48|16@1+ (0.1,0.0) [0.0|500.0] "Ah" Vector__XXX
+ SG_ BPA_NVR_SysTimeTick : 16|32@1+ (1e-06,0.0) [0.0|4294.967295] "MCnt" Vector__XXX
  SG_ BPA_BatCapacity : 0|16@1+ (0.1,0.0) [-500.0|500.0] "Ah" Vector__XXX
 
 BO_ 1561 BPA_MD_Infro: 8 Vector__XXX
@@ -225,9 +230,9 @@ BO_ 1563 BPA_COM_State: 8 Vector__XXX
  SG_ BPA_SBNum : 0|8@1+ (1.0,0.0) [0.0|30.0] "Num" Vector__XXX
 
 BO_ 1566 BPA_CHA0: 8 Vector__XXX
- SG_ BPA_Current : 48|16@1- (0.1,0.0) [0.0|100.0] "A" Vector__XXX
+ SG_ BPA_Current : 48|16@1+ (0.1,0.0) [0.0|100.0] "A" Vector__XXX
  SG_ BPA_Voltage : 32|16@1+ (0.1,0.0) [0.0|100.0] "v" Vector__XXX
- SG_ BPA_Constant_Current : 16|16@1- (0.1,0.0) [5.0|100.0] "A" Vector__XXX
+ SG_ BPA_Constant_Current : 16|16@1+ (0.1,0.0) [5.0|100.0] "A" Vector__XXX
  SG_ BPA_Constant_Voltage : 0|16@1+ (0.1,0.0) [40.0|100.0] "V" Vector__XXX
 
 BO_ 1567 BPA_CHA1: 8 Vector__XXX
@@ -240,51 +245,49 @@ BO_ 1567 BPA_CHA1: 8 Vector__XXX
  SG_ BPA_Protect_SOC_Over : 1|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
  SG_ BPA_Protect_OC : 0|1@1+ (1.0,0.0) [0.0|1.0] "F" Vector__XXX
 
-BO_TX_BU_ 812 : Sender,GINT 검토 의견;
 
 
-CM_ SG_ 1792 HM1I_Cell_MinV "VCU CAN 통신 분리 된 상태에서
-관리자가 BMS에게 강제로 셀 전압 균일화를 요청";
-CM_ SG_ 1792 HMI1_Cell_AGVT "VCU CAN 통신 분리 된 상태에서
-관리자가 BMS에게 셀 온도 데이터를 요청 ";
-CM_ SG_ 1792 HMI_Reset "0X00=No Actioen
-0x01=HMIReset";
-CM_ SG_ 1792 HMI1_PWRHoldRly "0X00=Off;
-0x01=On;";
-CM_ SG_ 1792 HMI1_P_Rly "0X00=Off;
-0x01=On;";
-CM_ SG_ 1792 HMI1_Pre_Rly "0X00=Off;
-0x01=On;";
-CM_ SG_ 1792 HMI1_N_Rly "0X00=Off;
-0x01=On;";
-CM_ SG_ 1792 HMI1_CellBalaEn "0X00=No Actioen
-0x01=HMIBalace";
-CM_ SG_ 1792 HMI1_Cell_Temps_Request "VCU CAN 통신 분리 된 상태에서
-관리자가 BMS에게 셀 전압 데이터를 요청 ";
-CM_ SG_ 1792 HMI1_Cell_Volt_Request "VCU CAN 통신 분리 된 상태에서
-관리자가 Battery System에게 셀 전압 데이터 요청 ";
-CM_ SG_ 1792 HMI1_COM_EN "VCU CAN 통신 분리 된 상태에서 관리자가 Battery System 상태를 모니터링 하기 위한 모드 설정
-0x0=No Action;
-0x1=HMImODE;";
+
+CM_ SG_ 1792 Admin_Cell_MinV "현장 및 출하 검사 강제로 셀 전압 균일화 위한 셀 최소값 상관 없이 셀 전압 값";
+CM_ SG_ 1792 Admin_SocInitVaule "Admin_SocInitValue는 관리자가 강제로 지정하는 초기 SOC 값으로";
+CM_ SG_ 1792 Admin_NVRSocInit "셀 평균 전압이 비선형 구간으로 판단되면, 관리자 설정 값(Admin_SocInitValue)을 NVRSOC 영역에 갱신 저장한다.
+0x0 :  Nor
+0x1 : SocInit";
+CM_ SG_ 1792 Admin_NVRDataWR "셀 평균 전압이 비선형 구간으로 판단되면, 관리자 설정 값(Admin_SocInitValue)을 NVRSOC 영역에 갱신 저장한다.
+0x0 :  Nor
+0x1 : NVWrite";
+CM_ SG_ 1792 Admin_NVRDataRD "설정 값이 활성화되면 BMS는 보호 릴레이 OFF 시키고, PWRHold  ON 시, 하여 현재 저장 된 운영 데이터를 전송함
+0x0 :  Nor
+0x1 : NVRead";
+CM_ SG_ 1792 Admin_NVRReset "해당 기능 활성화 시 NVRAM 내 SYSTICK, SOC 및 운용 데이터가 초기화됨.
+0x0 :  Nor
+0x1 : Reset";
+CM_ SG_ 1792 Admin_Reset "설정 값이 활성화되면 BMS는 내부 상태를 초기화하고 상태머신을 초기 단계부터 재동작함.
+0x0 :  Nor
+0x1 : Reset";
+CM_ SG_ 1792 Admin_PWRHoldRly "현장 및 출하 검사 시, 관리자가 PWRHold 릴레이 동작 상태를 강제로 제어하여 동작 여부를 검증하기 위한 설정 값
+0x0 : Off, PWRBMS Hold측 릴레이 Off 
+0x1 : On, PWRBMS Hold측 릴레이 On";
+CM_ SG_ 1792 Admin_P_Rly "현장 및 출하 검사 시, 관리자가 P측 릴레이 동작 상태를 강제로 제어하여 동작 여부를 검증하기 위한 설정 값
+0x0 : Off, P측 릴레이 Off 
+0x1 : On, P측 릴레이 On";
+CM_ SG_ 1792 Admin_Pre_Rly "현장 및 출하 검사 시, 관리자가 초충측 릴레이 동작 상태를 강제로 제어하여 동작 여부를 검증하기 위한 설정 값
+0x0 : Off, 초충측 릴레이 Off 
+0x1 : On, 초중측 릴레이 On";
+CM_ SG_ 1792 Admin_N_Rly "현장 및 출하 검사 시, 관리자가 N측 릴레이 동작 상태를 강제로 제어하여 동작 여부를 검증하기 위한 설정 값
+0x0 : Off, N측 릴레이 Off 
+0x1 : On, N측 릴레이 On";
+CM_ SG_ 1792 Admin_CellBalaEn "용량 추정 불확실 시 선형 구간 도달까지 강제 셀 균일화 수행 여부 설정
+0x0 : Off, 강제 셀 균일화를 중지
+0x1 : On, 강제 셀 균일화를 시작 ";
+CM_ SG_ 1792 Admin_Mode "0x0 : CAN 통신 규약 및 보호 설정 값 따라서 BMS가 동작 모드 말함 
+0x1 : 출하 검사 및 현장 대응 시에 BMS 동작 모드를 관리자 모드 전환하는 상태임 ";
 CM_ SG_ 1794 CHA_CANRx_ERR "0x0=NoAction
 0x1= 배터리 시스템 - 충전기 간 CAN Communication Error";
-CM_ SG_ 1794 CHA_Protect_DCOC "0x0=NoAction0;
-0x1=BATE_UV;";
-CM_ SG_ 1794 CHA_Protect_DCUV "0x0=NoAction; 
-0x1=BATE_UV;";
-CM_ SG_ 1794 CHA_Protect_DCOV "0x0=NoAction;
-0x1=BATE_OV;";
-CM_ SG_ 1794 Use_Not "Use Not";
-CM_ SG_ 1794 CHA_Protect_ACUV "0x0=No Action, 
-0x1=AC_UV";
-CM_ SG_ 1794 CHA_Protect_ACOV "0x0=No Action, 
-0x1=AC_OV;";
-CM_ SG_ 1794 CHA_DO_STAUTE "0x0=Rly_Off;
-0x1=Rly_On;";
 CM_ SG_ 1794 CHA_Current "충전기에서 측정하고 배터리 전류 ";
 CM_ SG_ 1794 CHA_Voltage "충전기에서 측정하고 배터리 전압 ";
 CM_ SG_ 1794 CHA_SW_Ver "충전기 프로그램 버전 ";
-CM_ SG_ 1536 VCU_BSAHldShutdown "킬 스위치 off 일 때 VCU측에서 ROFF이후 VCU 가 BAT 파워 릴레이 OFF명령
+CM_ SG_ 1536 VCU_BSAPWRRly "킬 스위치 off 일 때 VCU측에서 ROFF이후 VCU 가 BAT 파워 릴레이 OFF명령
 0x0=NoAction;
 0x1=BPARly_OFF;";
 CM_ SG_ 1536 VCU_BSAReset "VCU 가 BAT Protect 상태를 Reset 
@@ -301,48 +304,9 @@ CM_ SG_ 1553 BPA_SOH "Battery System 전지 상태값";
 CM_ SG_ 1553 BPA_SOC "Battery System 충전량";
 CM_ SG_ 1553 BPA_Curr_Total "Battery System 전류값";
 CM_ SG_ 1553 BPA_Volt_Total "Battery System 전압값";
-CM_ SG_ 1554 Sys_HMIBalanceMode "0x0 : Off;
-0x1 : Ok";
-CM_ SG_ 1554 Sys_HMICOMMode "0x0 : Off;
-0x1 : Ok";
-CM_ SG_ 1554 Sys_IMDRegErr "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1554 Sys_ISOSPICOMERR "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1554 Sys_CANCOMERR "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1554 Sys_RlyERR "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1554 Sys_MSDERR "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1554 Sys_CellTempsOk "0x0 : Off;
-0x1 : Ok";
-CM_ SG_ 1554 Sys_CellVoltOk "0x0 : Off;
-0x1 : Ok";
-CM_ SG_ 1554 Sys_PwrHoldRlyDOStatus "0x0 : Off
-0x1 : On";
-CM_ SG_ 1554 Sys_PreRlyDOStatus "0x0 : Off
-0x1 : On";
-CM_ SG_ 1554 Sys_PRlyDOStatus "0x0 : Off
-0x1 : On";
-CM_ SG_ 1554 Sys_NRlyDOStatus "0x0 : Off
-0x1 : On";
-CM_ SG_ 1554 Sys_Prtct "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1554 Sys_Fault "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1554 Sys_Aalarm "0x0 : Nor;
-0x1 : Alarm";
-CM_ SG_ 1554 Sys_BalaMode "0x0 : Char
-0x1 : DisChar";
-CM_ SG_ 1554 Sys_SocMode "0x0 : Off
-0x1 : On";
-CM_ SG_ 1554 ChargerWakeUp "0x0 : Disable
-0x1 : Enable";
-CM_ SG_ 1554 VCURlyWakeUp "0x0 : Disable
-0x1 : Enable";
-CM_ SG_ 1554 Sys_INITOK "0x0 : Off;
-0x1 : Ok";
+CM_ SG_ 1554 Sys_AdminMode "This system does not apply";
+CM_ SG_ 1554 Sys_RlyErr "This system does not apply";
+CM_ SG_ 1554 Sys_MSDErr "This system does not apply";
 CM_ SG_ 1554 Sys_SocSeqState "0x0: SOC_STATE_IDLE,
 0x1: SOC_STATE_RUNNING,
 0x2: SOC_STATE_Save,
@@ -362,10 +326,20 @@ CM_ SG_ 1554 Sys_SysSeqState "0x0 : INIT;
 0x4 : ChargerStop
 0x5 : PROTECTER;
 0x6 : DATALOG;
-0x7 : MANUALMode;";
+0x7 : MANUALMode;
+0x8 : NvrReadMode
+0x9 : NvrResetMode
+0xA : NvrSocIntMode";
+CM_ SG_ 1554 BPA_PWRBMS_Hold "26.02.07에 추가함
+ -. PWRBMS_Hold 기능 대한 따른 동작 상태 정보가 없어서 점검 및 검증 시 환란을 발생 방지하기 위해
+   추가힘
+ - PWRBMS_Hold 기능은 셀 전압 균일화(밸런싱)를 목적으로, KillSWstatus = OFF 및 BSAHldShutdown = 1(파워 릴레이 OFF) 요청이 발생하더라도, 파워 릴레이가 OFF된 상태에서 BMS 통신 및 보호 기능이 정상적으로 유지·동작하는 상태를 의미합니다         ";
+CM_ SG_ 1554 BPA_KillSWstatus "26.02.07에 추가함
+-. CAN ID: 0x612. BIT: 42, Signal : Sys_VCUWakeUp
+-. Signal Name 명칭이 명확하지 않아서, 펌웨어 구현 및 검증 시 혼란을 발생 시킴  ";
 CM_ SG_ 1554 BPA_ChargerEn "0x00 : DisCharEnable;
 0x01 : CharEnable;";
-CM_ SG_ 1554 BPA_MSD_AUX "미적용 ";
+CM_ SG_ 1554 BPA_WakeUpEn "미적용 ";
 CM_ SG_ 1554 BPA_PreChar_Rly "0x0=Rly_Off;
 0x1=Rly_On;";
 CM_ SG_ 1554 BPA_Pos_Rly "0x0=Rly_Off;
@@ -382,82 +356,18 @@ CM_ SG_ 1554 BPA_Divice_Status "0x00 : Init
 0x01 : standby
 0x02 : Charger mode
 0x03 : Dischager mode ";
-CM_ SG_ 1555 BPA_Prtct_Charger_PwrErr "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_Discharger_PwrErr "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_CTCom_Err "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_CharCom_Err "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_VCUCom_Err "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_ISOSPI_Err "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_ISORESIS_Err "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_MSD_Err "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_Rly_Err "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_Cell_UnbalT "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_Cell_UT "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_Cell_OT "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_Cell_UnbalV "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_Cell_UV "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_Cell_OV "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_UT "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_OT "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_UV "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_OV "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_SOC_Under "0x0 : Nor;
-0x1 : Protect";
-CM_ SG_ 1555 BPA_Prtct_SOC_Over "0x0 : Nor;
-0x1 : Protect";
+CM_ SG_ 1555 BPA_Prtct_ISOSPI_Err "This system does not apply";
+CM_ SG_ 1555 BPA_Prtct_ISORESIS_Err "This system does not apply";
+CM_ SG_ 1555 BPA_Prtct_MSD_Err "This system does not apply";
+CM_ SG_ 1555 BPA_Prtct_Rly_Err "This system does not apply";
 CM_ SG_ 1555 BPA_Prtct_OC "CAN ID = 0X612, BIT21 
 BPA_ChargerEn=1 발생 경우에는 OC  발생 시에는 충전 시 과전류 발생
 BPA_ChargerEn=0 발생 경우에는 OC  발생 시에는 방전 시 과전류 발생";
-CM_ SG_ 1555 BPA_FLT_Charger_UnBPAWR "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_Discharger_UnBPAWR "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BSA_FLT_Cell_UnbalT "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_Cell_UT "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_Cell_OT "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_Cell_UnbalV "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_Cell_UV "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_Cell_OV "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_UT "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_OT "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_UV "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_OV "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_SOC_Under "0x0 : Nor;
-0x1 : Fault";
-CM_ SG_ 1555 BPA_FLT_SOC_Over "0x0 : Nor;
-0x1 : Fault";
 CM_ SG_ 1555 BPA_FLT_OC "CAN ID = 0X612, BIT21 
 BPA_ChargerEn=1 발생 경우에는 OC  발생 시에는 충전 시 과전류 발생
 BPA_ChargerEn=0 발생 경우에는 OC  발생 시에는 방전 시 과전류 발생";
+CM_ SG_ 1555 BPA_Wn_Charger_UnBPAWR "This system does not apply";
+CM_ SG_ 1555 BPA_Wn_Discharger_UnBPAWR "This system does not apply";
 CM_ SG_ 1555 BPA_Wn_OC "CAN ID = 0X612, BIT21 
 BPA_ChargerEn=1 발생 경우에는 OC  발생 시에는 충전 시 과전류 발생
 BPA_ChargerEn=0 발생 경우에는 OC  발생 시에는 방전 시 과전류 발생";
@@ -477,9 +387,8 @@ CM_ SG_ 1559 BPA_Min_Temps_pos "Battery System 최소온도값";
 CM_ SG_ 1559 BPA_Max_Temps_Pos "Battery System 최대온도값";
 CM_ SG_ 1559 BPA_Min_Volt_Pos "Battery System 최소전압값";
 CM_ SG_ 1559 BPA_Max_Volt_Pos "Battery System 최대전압값";
-CM_ SG_ 1560 BPA_BatSocOldCapacity "NVRAM 저장 중인 SOC ";
-CM_ SG_ 1560 BPA_CellRegsMax "Battery System 단전지 내부저항 최대값";
-CM_ SG_ 1560 BPA_BatISORegs "Battery System 절연저항";
+CM_ SG_ 1560 BPA_NVR_SOC "NVRAM 저장 중인 SOC ";
+CM_ SG_ 1560 BPA_NVR_SysTimeTick "This system does not apply";
 CM_ SG_ 1560 BPA_BatCapacity "Battery System 전류적산";
 CM_ SG_ 1561 BPA_BM1_Cell_AVGT_Num_ "Battery Module1 Cell 평균온도값";
 CM_ SG_ 1561 BPA_BM1_Cell_AVGV_Num_ "Battery Module1 Cell 평균전압값";
@@ -520,23 +429,27 @@ BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 100000000000;
 BA_DEF_DEF_  "GenMsgCycleTime" 0;
 BA_DEF_DEF_  "GenSigStartValue" 0;
 BA_ "GenMsgCycleTime" BO_ 1792 100;
-BA_ "GenSigStartValue" SG_ 1792 HM1I_Cell_MinV 0;
-BA_ "GenSigStartValue" SG_ 1792 HMI1_Cell_AGVT 0;
-BA_ "GenSigStartValue" SG_ 1792 HMI_Reset 0;
-BA_ "GenSigStartValue" SG_ 1792 HMI1_PWRHoldRly 0;
-BA_ "GenSigStartValue" SG_ 1792 HMI1_P_Rly 0;
-BA_ "GenSigStartValue" SG_ 1792 HMI1_Pre_Rly 0;
-BA_ "GenSigStartValue" SG_ 1792 HMI1_N_Rly 0;
-BA_ "GenSigStartValue" SG_ 1792 HMI1_CellBalaEn 0;
-BA_ "GenSigStartValue" SG_ 1792 HMI1_Cell_Temps_Request 0;
-BA_ "GenSigStartValue" SG_ 1792 HMI1_Cell_Volt_Request 0;
-BA_ "GenSigStartValue" SG_ 1792 HMI1_COM_EN 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_Cell_MinV 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_SocInitVaule 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_NVRSocInit 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_NVRDataWR 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_NVRDataRD 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_NVRReset 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_Reset 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_PWRHoldRly 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_P_Rly 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_Pre_Rly 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_N_Rly 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_CellBalaEn 0;
+BA_ "GenSigStartValue" SG_ 1792 Not_Used_2 0;
+BA_ "GenSigStartValue" SG_ 1792 Not_Used_1 0;
+BA_ "GenSigStartValue" SG_ 1792 Admin_Mode 0;
 BA_ "GenMsgCycleTime" BO_ 1794 1000;
 BA_ "GenSigStartValue" SG_ 1794 CHA_CANRx_ERR 0;
 BA_ "GenSigStartValue" SG_ 1794 CHA_Protect_DCOC 0;
 BA_ "GenSigStartValue" SG_ 1794 CHA_Protect_DCUV 0;
 BA_ "GenSigStartValue" SG_ 1794 CHA_Protect_DCOV 0;
-BA_ "GenSigStartValue" SG_ 1794 Use_Not 0;
+BA_ "GenSigStartValue" SG_ 1794 Not_Used_3 0;
 BA_ "GenSigStartValue" SG_ 1794 CHA_Protect_ACUV 0;
 BA_ "GenSigStartValue" SG_ 1794 CHA_Protect_ACOV 0;
 BA_ "GenSigStartValue" SG_ 1794 CHA_DO_STAUTE 0;
@@ -544,12 +457,12 @@ BA_ "GenSigStartValue" SG_ 1794 CHA_Current 0;
 BA_ "GenSigStartValue" SG_ 1794 CHA_Voltage 0;
 BA_ "GenSigStartValue" SG_ 1794 CHA_SW_Ver 0;
 BA_ "GenMsgCycleTime" BO_ 1536 100;
-BA_ "GenSigStartValue" SG_ 1536 VCU_BSAHldShutdown 0;
+BA_ "GenSigStartValue" SG_ 1536 VCU_BSAPWRRly 0;
 BA_ "GenSigStartValue" SG_ 1536 VCU_BSAReset 0;
 BA_ "GenMsgCycleTime" BO_ 812 10;
 BA_ "GenSigStartValue" SG_ 812 CT_Sensor 0;
 BA_ "GenMsgCycleTime" BO_ 1552 1000;
-BA_ "GenSigStartValue" SG_ 1552 BPA_Capacity 4800;
+BA_ "GenSigStartValue" SG_ 1552 BPA_Capacity 4600;
 BA_ "GenSigStartValue" SG_ 1552 BPA_NorVolt 480;
 BA_ "GenSigStartValue" SG_ 1552 BPA_Parallel 2;
 BA_ "GenSigStartValue" SG_ 1552 BPA_Serial 15;
@@ -561,13 +474,13 @@ BA_ "GenSigStartValue" SG_ 1553 BPA_SOC 0;
 BA_ "GenSigStartValue" SG_ 1553 BPA_Curr_Total 0;
 BA_ "GenSigStartValue" SG_ 1553 BPA_Volt_Total 0;
 BA_ "GenMsgCycleTime" BO_ 1554 10;
-BA_ "GenSigStartValue" SG_ 1554 Sys_HMIBalanceMode 0;
-BA_ "GenSigStartValue" SG_ 1554 Sys_HMICOMMode 0;
-BA_ "GenSigStartValue" SG_ 1554 Sys_IMDRegErr 0;
+BA_ "GenSigStartValue" SG_ 1554 Sys_AdminNvrInit 0;
+BA_ "GenSigStartValue" SG_ 1554 Sys_AdminBalan 0;
+BA_ "GenSigStartValue" SG_ 1554 Sys_AdminMode 0;
 BA_ "GenSigStartValue" SG_ 1554 Sys_ISOSPICOMERR 0;
-BA_ "GenSigStartValue" SG_ 1554 Sys_CANCOMERR 0;
-BA_ "GenSigStartValue" SG_ 1554 Sys_RlyERR 0;
-BA_ "GenSigStartValue" SG_ 1554 Sys_MSDERR 0;
+BA_ "GenSigStartValue" SG_ 1554 Sys_CANComErr 0;
+BA_ "GenSigStartValue" SG_ 1554 Sys_RlyErr 0;
+BA_ "GenSigStartValue" SG_ 1554 Sys_MSDErr 0;
 BA_ "GenSigStartValue" SG_ 1554 Sys_CellTempsOk 0;
 BA_ "GenSigStartValue" SG_ 1554 Sys_CellVoltOk 0;
 BA_ "GenSigStartValue" SG_ 1554 Sys_PwrHoldRlyDOStatus 0;
@@ -581,15 +494,17 @@ BA_ "GenSigStartValue" SG_ 1554 Sys_DisCharMode 0;
 BA_ "GenSigStartValue" SG_ 1554 Sys_BalanceEn 0;
 BA_ "GenSigStartValue" SG_ 1554 Sys_BalaMode 0;
 BA_ "GenSigStartValue" SG_ 1554 Sys_SocMode 0;
-BA_ "GenSigStartValue" SG_ 1554 ChargerWakeUp 0;
-BA_ "GenSigStartValue" SG_ 1554 VCURlyWakeUp 0;
-BA_ "GenSigStartValue" SG_ 1554 CANCOMEnable 0;
+BA_ "GenSigStartValue" SG_ 1554 Sys_ChargerWakeUp 0;
+BA_ "GenSigStartValue" SG_ 1554 Sys_VCUWakeUp 0;
+BA_ "GenSigStartValue" SG_ 1554 Sys_CANCom 0;
 BA_ "GenSigStartValue" SG_ 1554 Sys_INITOK 0;
 BA_ "GenSigStartValue" SG_ 1554 Sys_SocSeqState 0;
 BA_ "GenSigStartValue" SG_ 1554 SyS_RlySeqState 0;
 BA_ "GenSigStartValue" SG_ 1554 Sys_SysSeqState 0;
+BA_ "GenSigStartValue" SG_ 1554 BPA_PWRBMS_Hold 0;
+BA_ "GenSigStartValue" SG_ 1554 BPA_KillSWstatus 0;
 BA_ "GenSigStartValue" SG_ 1554 BPA_ChargerEn 0;
-BA_ "GenSigStartValue" SG_ 1554 BPA_MSD_AUX 0;
+BA_ "GenSigStartValue" SG_ 1554 BPA_WakeUpEn 0;
 BA_ "GenSigStartValue" SG_ 1554 BPA_PreChar_Rly 0;
 BA_ "GenSigStartValue" SG_ 1554 BPA_Pos_Rly 0;
 BA_ "GenSigStartValue" SG_ 1554 BPA_Neg_Rly 0;
@@ -670,9 +585,8 @@ BA_ "GenSigStartValue" SG_ 1559 BPA_Max_Temps_Pos 0;
 BA_ "GenSigStartValue" SG_ 1559 BPA_Min_Volt_Pos 0;
 BA_ "GenSigStartValue" SG_ 1559 BPA_Max_Volt_Pos 0;
 BA_ "GenMsgCycleTime" BO_ 1560 100;
-BA_ "GenSigStartValue" SG_ 1560 BPA_BatSocOldCapacity 0;
-BA_ "GenSigStartValue" SG_ 1560 BPA_CellRegsMax 0;
-BA_ "GenSigStartValue" SG_ 1560 BPA_BatISORegs 0;
+BA_ "GenSigStartValue" SG_ 1560 BPA_NVR_SOC 0;
+BA_ "GenSigStartValue" SG_ 1560 BPA_NVR_SysTimeTick 0;
 BA_ "GenSigStartValue" SG_ 1560 BPA_BatCapacity 0;
 BA_ "GenMsgCycleTime" BO_ 1561 100;
 BA_ "GenSigStartValue" SG_ 1561 BPA_BM1_Cell_AVGT_Num_ 0;
@@ -705,24 +619,63 @@ BA_ "GenSigStartValue" SG_ 1567 BPA_Neg_Rly 0;
 BA_ "GenSigStartValue" SG_ 1567 BPA_Protect_SOC_Under 0;
 BA_ "GenSigStartValue" SG_ 1567 BPA_Protect_SOC_Over 0;
 BA_ "GenSigStartValue" SG_ 1567 BPA_Protect_OC 0;
-VAL_ 1792 HMI_Reset 1 "Reset" ;
-VAL_ 1792 HMI1_CellBalaEn 1 "BalaEn" ;
-VAL_ 1792 HMI1_Cell_Temps_Request 1 "TempReset" ;
-VAL_ 1792 HMI1_Cell_Volt_Request 1 "VoltReqset" ;
-VAL_ 1792 HMI1_COM_EN 1 "Enable" ;
-VAL_ 1536 VCU_BSAHldShutdown 1 "PwrOfff" ;
-VAL_ 1536 VCU_BSAReset 1 "Reset" ;
+VAL_ 1792 Admin_NVRSocInit 0 "Nor" 1 "SocInit" ;
+VAL_ 1792 Admin_NVRDataWR 0 "Nor" 1 "NVWrite" ;
+VAL_ 1792 Admin_NVRDataRD 0 "Nor" 1 "NVRead" ;
+VAL_ 1792 Admin_NVRReset 0 "Nor" 1 "Reset" ;
+VAL_ 1792 Admin_Reset 0 "Nor" 1 "Reset" ;
+VAL_ 1792 Admin_PWRHoldRly 0 "Off" 1 "On" ;
+VAL_ 1792 Admin_P_Rly 0 "Off" 1 "On" ;
+VAL_ 1792 Admin_Pre_Rly 0 "Off" 1 "On" ;
+VAL_ 1792 Admin_N_Rly 0 "Off" 1 "On" ;
+VAL_ 1792 Admin_CellBalaEn 0 "Off" 1 "On" ;
+VAL_ 1792 Admin_Mode 0 "Auto" 1 "Admin" ;
+VAL_ 1794 CHA_CANRx_ERR 0 "Nor" 1 "Prtct" ;
+VAL_ 1794 CHA_Protect_DCOC 0 "Nor" 1 "Prtct" ;
+VAL_ 1794 CHA_Protect_DCUV 0 "Nor" 1 "Prtct" ;
+VAL_ 1794 CHA_Protect_DCOV 0 "Nor" 1 "Prtct" ;
+VAL_ 1794 CHA_Protect_ACUV 0 "Nor" 1 "Prtct" ;
+VAL_ 1794 CHA_Protect_ACOV 0 "Nor" 1 "Prtct" ;
+VAL_ 1794 CHA_DO_STAUTE 0 "Off" 1 "On" ;
+VAL_ 1536 VCU_BSAPWRRly 0 "Rly_Close 0x1 = Rly_Open" ;
+VAL_ 1536 VCU_BSAReset 0 "Nor" 1 "Reset" ;
+VAL_ 1554 Sys_AdminNvrInit 0 "Dis" 1 "EN" ;
+VAL_ 1554 Sys_AdminBalan 0 "Dis" 1 "EN" ;
+VAL_ 1554 Sys_AdminMode 0 "Auto" 1 "Admin" ;
+VAL_ 1554 Sys_ISOSPICOMERR 0 "Nor" 1 "Prtct" ;
+VAL_ 1554 Sys_CANComErr 0 "Nor" 1 "Prtct" ;
+VAL_ 1554 Sys_RlyErr 0 "Nor" 1 "Prtct" ;
+VAL_ 1554 Sys_MSDErr 0 "Nor" 1 "Prtct" ;
+VAL_ 1554 Sys_CellTempsOk 0 "Off" 1 "On" ;
+VAL_ 1554 Sys_CellVoltOk 0 "Off" 1 "On" ;
+VAL_ 1554 Sys_PwrHoldRlyDOStatus 0 "Off" 1 "On" ;
+VAL_ 1554 Sys_PreRlyDOStatus 0 "Off" 1 "On" ;
+VAL_ 1554 Sys_PRlyDOStatus 0 "Off" 1 "On" ;
+VAL_ 1554 Sys_NRlyDOStatus 0 "Off" 1 "On" ;
+VAL_ 1554 Sys_Prtct 0 "Nor" 1 "Prtct" ;
+VAL_ 1554 Sys_Fault 0 "Nor" 1 "Fault" ;
+VAL_ 1554 Sys_Aalarm 0 "Nor" 1 "Alarm" ;
+VAL_ 1554 Sys_DisCharMode 0 "Dis" 1 "EN" ;
+VAL_ 1554 Sys_BalanceEn 0 "Stop" 1 "Start" ;
+VAL_ 1554 Sys_BalaMode 0 "Dis" 1 "EN" ;
+VAL_ 1554 Sys_SocMode 0 "Off" 1 "Ok" ;
+VAL_ 1554 Sys_ChargerWakeUp 0 "Dis" 1 "EN" ;
+VAL_ 1554 Sys_VCUWakeUp 0 "Dis" 1 "EN" ;
+VAL_ 1554 Sys_CANCom 0 "Dis" 1 "EN" ;
+VAL_ 1554 Sys_INITOK 0 "Off" 1 "Ok" ;
 VAL_ 1554 Sys_SocSeqState 0 "SOC_STATE_IDLE" 1 "SOC_STATE_RUNNING" 2 "SOC_STATE_Save" 3 "SOC_STATE_CLEAR" ;
 VAL_ 1554 SyS_RlySeqState 0 "PrtctRly_INIT" 1 "PrtctRly_STANDBY" 2 "PrtctRly_Ready" 3 "PrtctRly_RuningON" 4 "PrtctRly_RuningOFF" 5 "PrtctRly_ProtectpOFF" 6 "PrtctRly_RLYProtect" 7 "PrtctRly_CLEAR" ;
-VAL_ 1554 Sys_SysSeqState 0 "INIT" 1 "STANDBY" 2 "READY" 3 "RUNING" 4 "ChargerStop 0x5 = PROTECTER" 6 "DATALOG" 7 "MANUALMode" ;
-VAL_ 1554 BPA_ChargerEn 0 "DisCharEnable" 1 "CharEnable" ;
-VAL_ 1554 BPA_MSD_AUX 0 "Close" 1 "Open" ;
-VAL_ 1554 BPA_PreChar_Rly 0 "Rly_Off" 1 "Rly_On" ;
-VAL_ 1554 BPA_Pos_Rly 0 "Rly_Off" 1 "Rly_On" ;
-VAL_ 1554 BPA_Neg_Rly 0 "Rly_Off" 1 "Rly_On" ;
-VAL_ 1554 BPA_Balance 0 "OFF 0x01 = ON" ;
-VAL_ 1554 BPA_Protect_Status 0 "Nor" 1 "waring" 2 "Fault" 3 "Protect" ;
-VAL_ 1554 BPA_Divice_Status 0 "Init" 1 "standby" 2 "Charger mode" 3 "Dischager mode" ;
+VAL_ 1554 Sys_SysSeqState 0 "INIT" 1 "STANDBY" 2 "READY" 3 "RUNING" 4 "ChargerStop" 5 "Protect" 6 "DATALOG" 7 "Manual" 8 "NvrRead" 9 "NvrReset" 10 "NvrSocInt" ;
+VAL_ 1554 BPA_PWRBMS_Hold 0 "oFF 0x1 = On" ;
+VAL_ 1554 BPA_KillSWstatus 0 "Off" 1 "On" ;
+VAL_ 1554 BPA_ChargerEn 0 "Off" 1 "On" ;
+VAL_ 1554 BPA_WakeUpEn 0 "Open" 1 "Close" ;
+VAL_ 1554 BPA_PreChar_Rly 0 "Open" 1 "Close" ;
+VAL_ 1554 BPA_Pos_Rly 0 "Open" 1 "Close" ;
+VAL_ 1554 BPA_Neg_Rly 0 "Open" 1 "Close" ;
+VAL_ 1554 BPA_Balance 0 "Off" 1 "On" ;
+VAL_ 1554 BPA_Protect_Status 0 "Nor" 1 "Warn" 2 "Fault" 3 "Prtct" ;
+VAL_ 1554 BPA_Divice_Status 0 "Init" 1 "standby" 2 "Charger" 3 "Dischager" ;
 VAL_ 1555 BPA_Prtct_Charger_PwrErr 0 "Nor" 1 "Protect" ;
 VAL_ 1555 BPA_Prtct_Discharger_PwrErr 0 "Nor" 1 "Protect" ;
 VAL_ 1555 BPA_Prtct_CTCom_Err 0 "Nor" 1 "Protect" ;
