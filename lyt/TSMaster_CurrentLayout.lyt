@@ -1,7 +1,11 @@
 ﻿[TSMaster]
 LogVerbose=6
 ConfFile=D:\Projects\TOSUN\Projects\TSMaster\bin\Templates\ProjectConfigurations\CAN Bus Measurement.T7z
+<<<<<<< HEAD
 Bounds=0,0,1932,1056
+=======
+Bounds=0,0,1936,1048
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 Maximized=1
 DisplayHex=1
 DisplaySym=1
@@ -35,7 +39,11 @@ PopStartLoggingNotification=0
 
 [OnlineReplay]
 CANCount=1
+<<<<<<< HEAD
 CAN0=0,0,0,-1,-1,0,0,0,1,1000,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,2025_10_23_18_08_233호차챵,.\Logging\Bus\2025_10_23_18_08_233호차챵.blf,0,,0,1,MSwyLDMsNCw1LDYsNyw4LDksMTAsMTEsMTIsMTMsMTQsMTUsMTYsMTcsMTgsMTksMjAsMjEsMjIsMjMsMjQsMjUsMjYsMjcsMjgsMjksMzAsMzEsMzIsMzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsNDIsNDMsNDQsNDUsNDYsNDcsNDgsNDksNTAsNTEsNTIsNTMsNTQsNTUsNTYsNTcsNTgsNTksNjAsNjEsNjIsNjMsNjQ_
+=======
+CAN0=0,0,0,-1,-1,0,0,0,1,1000,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,2025_10_23_18_08_233호차챵,.\Logging\Bus\2025_10_23_18_08_233호차챵.blf,0,,0,0,MSwyLDMsNCw1LDYsNyw4LDksMTAsMTEsMTIsMTMsMTQsMTUsMTYsMTcsMTgsMTksMjAsMjEsMjIsMjMsMjQsMjUsMjYsMjcsMjgsMjksMzAsMzEsMzIsMzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsNDIsNDMsNDQsNDUsNDYsNDcsNDgsNDksNTAsNTEsNTIsNTMsNTQsNTUsNTYsNTcsNTgsNTksNjAsNjEsNjIsNjMsNjQ_
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 
 [MeasurementController]
 MCount=37
@@ -84,7 +92,11 @@ MDI=1
 CaptionRenamed=0
 IsExternal=0
 Caption=系统消息
+<<<<<<< HEAD
 UICommon=0,-1,0,0,U3lzdGVtIE1lc3NhZ2Vz,100,278,8466485923643390172,0
+=======
+UICommon=0,-1,0,0,U3lzdGVtIE1lc3NhZ2Vz,100,279,8466485923643390172,0
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 UIFilter=
 
 [CANFDTraceOptions]
@@ -168,7 +180,11 @@ CaptionRenamed=0
 IsExternal=0
 Caption=CAN 数据库
 HWChnCount=2
+<<<<<<< HEAD
 UICommon=0,-1,0,0,Q0FOIERhdGFiYXNl,100,604,8247779838910326562,0
+=======
+UICommon=0,-1,0,0,Q0FOIERhdGFiYXNl,100,440,8247779838910326562,0
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 UIFilter=
 PropertyHeight=298
 PropertyVisible=1
@@ -185,12 +201,20 @@ MDI=1
 CaptionRenamed=0
 IsExternal=0
 Caption=CAN统计数据
+<<<<<<< HEAD
 UICommon=0,-1,0,0,Q0FOIFN0YXRpc3RpY3M_,100,89,3001649250810152456,0
+=======
+UICommon=0,-1,0,0,Q0FOIFN0YXRpc3RpY3M_,100,145,3001649250810152456,0
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 UIFilter=
 
 [ChannelMappings]
 CANChnCount=1
+<<<<<<< HEAD
 CAN0=0,0,3,0,0,14,0,500,2000,TSMaster,TLog1002
+=======
+CAN0=0,0,3,0,0,26,0,500,2000,TSMaster,TLog1004
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 LINChnCount=0
 FlexRayChnCount=0
 EthernetChnCount=0
@@ -431,7 +455,11 @@ CAN_GINT_15S2PBAP_CANDBR44=1
 CAN_GINT_15S2PBAP_CANDBR44Alias=
 
 [SysVarMgmt]
+<<<<<<< HEAD
 UICommon=0,-1,0,0,U3lzdGVtIFZhcmlhYmxlIE1hbmFnZW1lbnQ_,100,297,1047087026971959599,0
+=======
+UICommon=0,-1,0,0,U3lzdGVtIFZhcmlhYmxlIE1hbmFnZW1lbnQ_,100,245,1047087026971959599,0
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 UIFilter=
 
 [LIN_Databases]
@@ -457,12 +485,20 @@ ConstantsWidths=50,200,499
 UsersWidths=50,200,50
 
 [MeasSetup]
+<<<<<<< HEAD
 UICommon=0,-1,0,0,TWVhc3VyZW1lbnQgU2V0dXA_,100,154,7729305148856768155,0
+=======
+UICommon=0,-1,0,0,TWVhc3VyZW1lbnQgU2V0dXA_,100,173,7729305148856768155,0
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 UIFilter=
 Zoom=1
 
 [TfrmGPLibrary]
+<<<<<<< HEAD
 UICommon=0,-1,-1,0,R3JhcGhpYyBQcm9ncmFtIExpYnJhcnk_,100,597,168042853088921141,0
+=======
+UICommon=0,-1,-1,0,R3JhcGhpYyBQcm9ncmFtIExpYnJhcnk_,100,446,168042853088921141,0
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 UIFilter=
 MName=Graphic Program Library
 ToolsWidth=500
@@ -497,7 +533,11 @@ EnableRepeat=0
 RepeatCnt=inf
 
 [TfrmGPBuilder]
+<<<<<<< HEAD
 UICommon=0,-1,0,0,R3JhcGhpYyBQcm9ncmFtIEJ1aWxkZXI_,100,107,4294184536734626987,0
+=======
+UICommon=0,-1,0,0,R3JhcGhpYyBQcm9ncmFtIEJ1aWxkZXI_,100,193,4294184536734626987,0
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 UIFilter=
 
 [TfrmSystemVarMgmt1]
@@ -509,6 +549,7 @@ AutoDecideTree=1
 
 [OfflineReplay]
 ChnMapping=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64
+<<<<<<< HEAD
 ReplayConfig=3,0,0,-1,-1,0,0,0,1,1000,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,,.\Logging\Bus\2026_02_09_10_47_083호차챵.blf,0,,0,1,MSwyLDMsNCw1LDYsNyw4LDksMTAsMTEsMTIsMTMsMTQsMTUsMTYsMTcsMTgsMTksMjAsMjEsMjIsMjMsMjQsMjUsMjYsMjcsMjgsMjksMzAsMzEsMzIsMzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsNDIsNDMsNDQsNDUsNDYsNDcsNDgsNDksNTAsNTEsNTIsNTMsNTQsNTUsNTYsNTcsNTgsNTksNjAsNjEsNjIsNjMsNjQ_
 
 [Playback]
@@ -516,20 +557,36 @@ UICommon=0,-1,0,0,QnVzIFBsYXliYWNr,100,367,4517675108684338055,0
 UIFilter=
 PostHeight=237
 FilesCount=5
+=======
+ReplayConfig=3,0,0,-1,-1,0,0,0,1,1000,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,,.\Logging\Bus\2025_12_03_11_55_GINT 3호기(출하성적서).blf,0,,0,1,MSwyLDMsNCw1LDYsNyw4LDksMTAsMTEsMTIsMTMsMTQsMTUsMTYsMTcsMTgsMTksMjAsMjEsMjIsMjMsMjQsMjUsMjYsMjcsMjgsMjksMzAsMzEsMzIsMzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsNDIsNDMsNDQsNDUsNDYsNDcsNDgsNDksNTAsNTEsNTIsNTMsNTQsNTUsNTYsNTcsNTgsNTksNjAsNjEsNjIsNjMsNjQ_
+
+[Playback]
+UICommon=0,-1,0,0,QnVzIFBsYXliYWNr,100,318,4517675108684338055,0
+UIFilter=
+PostHeight=297
+FilesCount=4
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 PostCount=0
 trtype=0
 Files0=E:\102 PCAN\07 Gint15S2P\Logging\Bus\2025_12_03_23_25_3호차챵.blf
 Files1=.\Logging\Bus\2025_12_03_00_04_GINT 2호기(출하성적서).blf
 Files2=.\Logging\Bus\2025_12_03_00_14_GINT 1호기(출하성적서).blf
 Files3=.\Logging\Bus\2025_12_03_11_55_GINT 3호기(출하성적서).blf
+<<<<<<< HEAD
 Files4=.\Logging\Bus\2026_02_09_10_47_083호차챵.blf
+=======
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 
 [TfrmBasePluginSingle.TfrmLicenseClient]
 UICommon=0,-1,0,0,TGljZW5zZSBDbGllbnQ_,100,-1,1933451650323239612,0
 UIFilter=
 
 [Documents]
+<<<<<<< HEAD
 UICommon=0,-1,0,0,RG9jdW1lbnRz,100,124,5687487374883876146,0
+=======
+UICommon=0,-1,0,0,RG9jdW1lbnRz,100,174,5687487374883876146,0
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 UIFilter=
 ReadOnly=0
 Title=Title
@@ -550,9 +607,15 @@ FT1=TestSystemLite
 FC1=0
 
 [CANLogger0]
+<<<<<<< HEAD
 UICommon=0,-1,0,0,QnVzIExvZ2dpbmc_,100,557,3891956104237041109,0
 UIFilter=
 LogName=2026_03_03_13_03_073호차챵.blf
+=======
+UICommon=0,-1,0,0,QnVzIExvZ2dpbmc_,100,388,3891956104237041109,0
+UIFilter=
+LogName=2026_01_25_16_54_303호차챵.blf
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 AddTime=1
 FollowConf=1
 DefaultDir=0
@@ -566,7 +629,11 @@ FDataFileNameRule=[Measurement Start Time][3호차챵]
 IsLoggingEnabled=1
 
 [TfrmDBCEditor]
+<<<<<<< HEAD
 UICommon=0,-1,0,0,REJDIEVkaXRvcg__,100,2457,520166502865919614,0
+=======
+UICommon=0,-1,0,0,REJDIEVkaXRvcg__,100,2175,520166502865919614,0
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 UIFilter=
 
 [MPLibraryMgmt]
@@ -578,7 +645,11 @@ disp_cell_temp=
 FHWRealVehicleMeasurementMode=0
 
 [TInstrumentManager]
+<<<<<<< HEAD
 UICommon=0,-1,0,0,SW5zdHJ1bWVudHMgU3R1ZGlv,100,186,3005872326935373260,0
+=======
+UICommon=0,-1,0,0,SW5zdHJ1bWVudHMgU3R1ZGlv,100,182,3005872326935373260,0
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 UIFilter=
 
 [TfrmTSMaster]
@@ -606,6 +677,7 @@ TL1004_FD_4_LIN_2_TS_FD_Term120=1
 TL1004_FD_4_LIN_2_TS_FD_FAutoRecoverFromBusOff=1
 
 [Pg0]
+<<<<<<< HEAD
 Count=4
 f0=TfrmCANStatistics,0,2396,23,971,919,335,625,827,747,1
 f1=TfrmCANFDTransmit,1,889,0,755,613,2156,8,1332,1191,1
@@ -616,6 +688,18 @@ h1=TfrmCANFDTrace,0,319,23,1209,1349,361,193,3220,1239,1
 h2=TfrmCANDatabase,0,0,0,1577,941,284,213,1691,951,1
 h3=TfrmCANFDTransmit,0,1487,17,799,919,889,149,2625,1441,1
 h4=TfrmCANFDTransmit,2,1481,23,1887,1035,0,0,1887,903,1
+=======
+Count=3
+f0=TfrmCANStatistics,0,1797,17,728,689,251,469,620,560,1
+f1=TfrmCANFDTransmit,1,667,0,566,460,1617,6,999,893,1
+f2=TfrmCANFDTrace,0,0,0,667,590,271,145,2415,929,1
+HiddenCount=5
+h0=TfrmPlayback,0,-1175,127,3409,1423,39,404,1148,671,1
+h1=TfrmCANFDTrace,0,239,17,907,1012,271,145,2415,929,1
+h2=TfrmCANDatabase,0,0,0,1183,706,213,160,1268,713,1
+h3=TfrmCANFDTransmit,0,1115,13,599,689,667,112,1969,1081,1
+h4=TfrmCANFDTransmit,2,1111,17,1415,776,0,0,1415,677,1
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 h5=TfrmFormDocker,0,0,0,4820,3252,0,0,4820,3252,1
 h6=TfrmTSForm,0,37,37,1260,873,1167,1167,4295,2844,1
 h7=TfrmSystemMsgs,0,0,0,4105,1621,3201,161,2695,3036,1
@@ -625,6 +709,7 @@ h10=TfrmCANDatabase,0,-579,86,1918,826,379,315,2255,1408,1
 h11=TfrmCANFDTrace,1,1287,113,3164,1749,0,0,2624,944,1
 h12=TfrmCANFDTransmit,0,624,44,749,496,889,149,2625,1441,1
 h13=TfrmDBCEditor,0,-616,77,1918,826,0,0,1484,964,1
+<<<<<<< HEAD
 f3=TfrmCANDatabase,0,0,0,1577,941,284,213,1691,951,1
 f4=TfrmDBCEditor,0,0,0,1918,826,0,0,1484,964,1
 
@@ -654,6 +739,37 @@ h14=TfrmGraphics,4,0,0,1935,969,0,0,1935,969,1
 h15=TfrmScopeUI,0,35,35,2180,724,35,35,2180,724,1
 h16=TInstrumentManager,0,69,69,1411,899,69,69,1411,899,1
 h17=TfrmCANFDTransmit,1,557,0,1061,564,0,0,1061,564,1
+=======
+f3=TfrmPlayback,0,0,26,1918,800,22,227,646,377,1
+f4=TfrmDBCEditor,0,0,0,1918,826,0,0,1484,964,1
+
+[Pg1]
+Count=3
+f0=TfrmNumeric,0,2036,2,487,439,303,139,1345,475,1
+f1=TfrmNumeric,1,2036,442,487,623,0,0,1627,709,1
+f2=TfrmGraphics,0,0,0,1594,801,3713,4681,22165,10939,1
+HiddenCount=18
+h0=TfrmGraphics,0,21,16,9623,10295,3713,4681,22165,10939,1
+h1=TfrmCANFDTrace,0,176,74,1382,599,3604,1925,32161,12385,1
+f3=TfrmCANDatabase,0,139,-8,2552,1096,673,560,4009,2503,1
+f4=TfrmGraphics,0,0,2,2036,1086,3713,4681,22165,10939,1
+h2=TfrmCANStatistics,0,176,74,1056,442,3349,6241,8265,7468,1
+h3=TfrmBasePluginSingle.TfrmLicenseClient,0,-1449,379,6060,2609,-17104,5641,10636,7916,1
+h4=TfrmDocuments,0,780,0,13751,8246,780,780,13751,8746,1
+h5=TfrmTSForm,0,65,65,2240,1552,2075,2075,7636,5056,1
+h6=TfrmSystemMsgs,0,0,0,7297,2881,5691,287,4791,5398,1
+h7=TfrmTSAppHost,0,0,0,3461,2021,0,0,3461,2021,1
+h8=TfrmPlayback,0,176,74,1354,697,123,1279,3628,2122,1
+h9=TfrmCANDatabase,0,172,60,1202,619,673,560,4009,2503,1
+h10=TfrmCANFDTransmit,0,1961,128,1332,881,1580,265,4667,2561,1
+h11=TfrmLogging,0,0,0,1412,830,0,116,1500,545,1
+h12=TfrmNumeric,1,0,0,1627,709,0,0,1627,709,1
+h13=TfrmGraphics,3,0,0,1451,806,0,0,1451,806,1
+h14=TfrmGraphics,4,0,0,1451,727,0,0,1451,727,1
+h15=TfrmScopeUI,0,26,26,1635,543,26,26,1635,543,1
+h16=TInstrumentManager,0,52,52,1058,674,52,52,1058,674,1
+h17=TfrmCANFDTransmit,1,418,0,796,423,0,0,796,423,1
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 
 [RTL_Form_Position]
 TfrmCANTrace_0=58,66,1007,568
@@ -671,7 +787,11 @@ TfrmCANTrace_2=1597,114,2546,512
 TfrmMeter_1=1738,105,2472,673
 TfrmTSCANmini_0=336,142,1939,994
 TfrmCANTransmit_1=80,38,1104,806
+<<<<<<< HEAD
 TfrmTSMaster_0=0,0,2581,1397
+=======
+TfrmTSMaster_0=0,0,1938,1038
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 TfrmSTDForms_0=165,260,1735,1041
 TfrmCANFDTransmit_0=375,63,1483,671
 TfrmLINTrace_0=68,53,1092,821
@@ -691,7 +811,11 @@ TfrmSignalMapping_0=324,98,1348,866
 TfrmNumeric_0=170,78,927,345
 TfrmHardware=558,325,1362,926
 TfrmChannelMapping=558,288,1361,740
+<<<<<<< HEAD
 TfrmCANDatabase1=772,441,1788,1072
+=======
+TfrmCANDatabase1=452,255,1468,886
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 TfrmSystemVarMgmt=-1361,502,-559,1249
 TfrmLINDatabase=-1418,598,-503,1153
 TfrmAutomotiveFileConverter=-1399,567,-522,1179
@@ -745,6 +869,7 @@ TfrmSTIM_0=289,59,1297,636
 TfrmAutomotiveFileConverter_0=334,42,1309,641
 TfrmNumeric_0=170,78,927,345
 TfrmSystemMsgs=0,0,1294,328
+<<<<<<< HEAD
 Graphics=0,0,2269,1144
 TfrmCANStatistics=2396,23,3367,942
 TfrmCANDatabase=0,0,1577,941
@@ -768,10 +893,36 @@ RP12100_TfrmTSForm.RP1210=16,24,548,392
 TfrmExcelTestSystem=0,0,1397,360
 TfrmScopeUI=364,364,2545,1146
 TfrmDocuments=104,104,1480,979
+=======
+Graphics=0,0,1594,801
+TfrmCANStatistics=1797,17,2525,706
+TfrmCANDatabase=0,0,1016,631
+CANFDTransmit=0,0,1061,564
+CANFDTraceOptions=0,0,667,590
+TfrmNumeric=2036,2,2523,441
+TfrmNumeric1=2036,442,2523,1065
+PanelOptions=0,0,710,488
+TfrmSystemVarMgmt=130,130,932,877
+TfrmSymbolValue=130,130,665,672
+TfrmMeasurementSetup=182,182,1018,706
+CCodeEditor=0,0,1040,703
+TfrmGPLibrary=104,104,1388,906
+TfrmGPBuilder=0,0,806,603
+CANFDTransmit1=667,0,1233,460
+Graphics1=0,0,1088,606
+TfrmTSAppHost=0,0,616,360
+TfrmPlayback=0,0,985,714
+TfrmBasePluginSingle.TfrmLicenseClient=234,234,1299,1027
+RP12100_TfrmTSForm.RP1210=16,24,548,392
+TfrmExcelTestSystem=0,0,1397,360
+TfrmScopeUI=208,208,1876,773
+TfrmDocuments=234,234,1610,1109
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 TfrmFormDocker=0,0,858,579
 TfrmToolboxBuilder=1700,0,2550,1180
 CANFDTraceOptions1=763,43,2003,989
 TfrmLogging=0,0,794,467
+<<<<<<< HEAD
 TfrmDBCEditor=390,390,1225,932
 Graphics2=-4,5,1936,1105
 PythonCodeEditor=234,234,1282,939
@@ -779,6 +930,15 @@ TInstrumentManager=26,26,1084,700
 Graphics3=0,0,1088,606
 Graphics4=0,0,1088,606
 Graphics5=0,0,1962,1168
+=======
+TfrmDBCEditor=234,234,1069,776
+Graphics2=0,0,1088,606
+PythonCodeEditor=234,234,1282,939
+TInstrumentManager=0,0,1058,674
+Graphics3=0,0,1088,606
+Graphics4=0,0,1088,606
+Graphics5=0,0,1088,606
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 CANFDTransmit2=0,0,1061,564
 
 [MDIInstances]
@@ -870,6 +1030,7 @@ TfrmTACHW=0
 [PageLayouts]
 Tabbed=0
 PageCnt=6
+<<<<<<< HEAD
 ActiveIdx=1
 Pg0=CAN
 Pg1=BAT_SYSTEM
@@ -877,6 +1038,15 @@ DisableResize=0
 ScreenWidth=2560
 ScreenHeight=1440
 MainBounds=-8,-8,2568,1400
+=======
+ActiveIdx=0
+Pg0=CAN
+Pg1=BAT_SYSTEM
+DisableResize=0
+ScreenWidth=1920
+ScreenHeight=1080
+MainBounds=-8,-8,1928,1040
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 PixelsPerInch=96
 AppLeftP=-8
 AppTopP=-8
@@ -887,6 +1057,7 @@ Pg5=PackSlave
 
 [Pg2]
 Count=1
+<<<<<<< HEAD
 f0=TfrmGraphics,5,0,0,1962,1168,0,0,1935,969,1
 HiddenCount=7
 f1=TfrmGraphics,2,768,11,1088,606,0,0,1088,606,1
@@ -898,14 +1069,33 @@ h3=TfrmGraphics,0,-672,128,3449,1952,372,469,2219,1095,1
 h4=TfrmGraphics,1,17,7,3221,1431,17,7,3221,1431,1
 h5=TfrmGraphics,4,0,0,1935,969,0,0,1935,969,1
 h6=TfrmCANDatabase,0,0,0,1016,631,160,133,951,595,1
+=======
+f0=TfrmGraphics,5,0,0,1455,825,0,0,1451,727,1
+HiddenCount=7
+f1=TfrmGraphics,2,768,11,1088,606,0,0,1088,606,1
+f2=TfrmSystemMsgs,0,229,154,1381,503,1013,51,853,961,1
+h0=TfrmNumeric,1,0,0,1627,709,0,0,1627,709,1
+h1=TfrmGraphics,2,0,0,2085,1105,0,0,1451,727,1
+h2=TfrmPlayback,0,-572,127,3409,1423,39,404,1148,671,1
+h3=TfrmGraphics,0,-504,96,2587,1464,279,352,1664,821,1
+h4=TfrmGraphics,1,13,5,2416,1073,13,5,2416,1073,1
+h5=TfrmGraphics,4,0,0,1451,727,0,0,1451,727,1
+h6=TfrmCANDatabase,0,0,0,762,473,120,100,713,446,1
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 f3=TfrmPythonCodeEditor,0,191,64,1048,705,321,149,1024,742,1
 h7=TfrmCANDatabase,0,0,0,1807,1121,284,236,1691,1056,1
 
 [Pg3]
 Count=1
+<<<<<<< HEAD
 f0=TfrmGraphics,1,17,7,1940,1100,0,0,3440,1915,1
 HiddenCount=1
 h0=TfrmGraphics,3,-1392,29,4587,2591,0,0,3440,1915,1
+=======
+f0=TfrmGraphics,1,13,5,1455,825,0,0,2580,1436,1
+HiddenCount=1
+h0=TfrmGraphics,3,-1044,22,3440,1943,0,0,2580,1436,1
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 h1=TfrmTSForm,0,49,49,1680,1164,1316,1316,4295,2844,1
 h2=TfrmCANFDTransmit,1,0,0,6740,3169,0,0,5964,3169,1
 h3=TfrmCANFDTrace,1,4197,225,6220,2239,0,0,6220,2239,1
@@ -916,6 +1106,7 @@ h7=TfrmCANDatabase,0,0,0,1807,1121,284,236,1691,1056,1
 
 [Pg4]
 Count=1
+<<<<<<< HEAD
 f0=TfrmGraphics,2,-4,5,1940,1100,0,0,2580,1437,1
 HiddenCount=11
 h0=TfrmCANFDTrace,0,548,44,1877,787,3604,1747,32161,11141,1
@@ -931,13 +1122,39 @@ h8=TfrmCANFDTransmit,0,2183,13,1159,919,667,101,1969,973,1
 h9=TfrmGraphics,2,-9,19,2124,1441,0,0,2580,1437,1
 f2=TfrmGraphics,2,12,14,1198,862,0,0,1451,898,1
 h10=TfrmGraphics,1,17,7,3221,1431,17,7,3221,1431,1
+=======
+f0=TfrmGraphics,2,-3,4,1455,825,0,0,1935,1078,1
+HiddenCount=11
+h0=TfrmCANFDTrace,0,411,33,1408,590,2703,1310,24121,8356,1
+h1=TfrmTSForm,0,87,86,2987,2069,2340,2340,7636,5056,1
+h2=TfrmCANFDTransmit,1,1257,14,805,893,0,0,10603,5633,1
+h3=TfrmPlayback,0,-300,85,2552,1096,164,1705,4837,2828,1
+h4=TfrmLogging,0,0,0,5952,3500,0,491,6321,2297,1
+h5=TfrmCANDatabase,0,-466,70,1918,826,505,420,3007,1877,1
+h6=TfrmGraphics,0,-420,103,3440,1810,661,833,3945,1946,1
+h7=TfrmGraphics,3,0,0,1451,806,0,0,1451,808,1
+f1=TfrmCANFDTrace,0,0,0,1878,786,3604,1747,32161,11141,1
+h8=TfrmCANFDTransmit,0,1637,10,869,689,500,76,1477,730,1
+h9=TfrmGraphics,2,-7,14,1593,1081,0,0,1935,1078,1
+f2=TfrmGraphics,2,12,14,1198,862,0,0,1451,898,1
+h10=TfrmGraphics,1,13,5,2416,1073,13,5,2416,1073,1
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
 h11=TfrmGraphics,1,13,5,2416,1073,13,5,2416,1073,1
 
 [Pg5]
 Count=1
+<<<<<<< HEAD
 f0=TfrmGraphics,3,0,0,2001,983,0,0,1935,969,1
 HiddenCount=3
 h0=TfrmGraphics,1,17,7,3221,1431,17,7,3221,1431,1
 f1=TfrmCANFDTransmit,2,833,14,1061,647,833,14,1061,647,1
 h1=TfrmCANFDTransmit,2,784,136,1887,1035,1481,23,1887,1035,1
 h2=TfrmPlayback,0,0,0,985,627,21,227,645,377,1
+=======
+f0=TfrmGraphics,3,0,0,1501,737,0,0,1451,727,1
+HiddenCount=3
+h0=TfrmGraphics,1,13,5,2416,1073,13,5,2416,1073,1
+f1=TfrmCANFDTransmit,2,833,14,1061,647,833,14,1061,647,1
+h1=TfrmCANFDTransmit,2,588,102,1415,776,1111,17,1415,776,1
+h2=TfrmPlayback,0,0,0,739,470,16,170,484,283,1
+>>>>>>> 709fb16069ff5374821cba480e5f5d7ef6b87740
